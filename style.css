@@ -11,11 +11,11 @@
   display: flex;
   justify-content: center; /* กึ่งกลางแนวนอน */
   align-items: flex-start; /* ชิดบน */
-  padding-top: 65px; /* เลื่อนลงจากบน 50px */
+  padding-top: 80px; /* เลื่อนลงจากบน 50px */
 }
 
 .envelope-wrapper {
-  transform: scale(2.1);
+  transform: scale(2.2);
   transform-origin: top center; /* ขยายโดยให้จุดยึดตรงกลางด้านบน */
 }
 
