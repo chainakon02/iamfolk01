@@ -7,9 +7,20 @@
 }
 
 #wrapper {
-  width: 400px;
-  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* กึ่งกลางแนวนอน */
+  align-items: flex-start; /* ชิดบน */
+  padding-top: 50px; /* เลื่อนลงจากบน 50px */
 }
+
+.envelope-wrapper {
+  transform: scale(1.5);
+  transform-origin: top center; /* ขยายโดยให้จุดยึดตรงกลางด้านบน */
+}
+
+
+
 
 .envelope {
   width: 200px;
@@ -207,3 +218,6 @@
 
   
 }
+
+
+
