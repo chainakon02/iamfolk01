@@ -15,7 +15,7 @@
 }
 
 .envelope-wrapper {
-  transform: scale(1.5);
+  transform: scale(1.9);
   transform-origin: top center; /* ขยายโดยให้จุดยึดตรงกลางด้านบน */
 }
 
